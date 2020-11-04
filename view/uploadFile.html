@@ -1,0 +1,19 @@
+    <!DOCTYPE html>
+  <html>lang="en"</html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <meta http-equiv="X-UA-Compatible" content="ie-edge">
+      <title>Document</title>
+  </head>
+  <body>
+      <form action="http://localhost:5000/upload" method="post">
+        upload csv files
+        <input type="file" accept=".csv" name="file">
+        <select name="title">
+            <option value="user_details">User Information</option>
+            <option value=job_title> job Title</option>
+        </select>
+        <input type="submit" value="upload file" name="submit">
+    </form>
+  </body>
